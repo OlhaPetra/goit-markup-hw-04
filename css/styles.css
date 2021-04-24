@@ -156,7 +156,6 @@ img {
 
 .nav .link,
 .contact .link {
-  display: block;
   padding: 32px 0;
 
   font-weight: 500;
@@ -186,14 +185,35 @@ img {
   margin-right: 50px;
 }
 
+.adress-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  align-items: center;
+  margin-right: 10px;
+  stroke: currentColor;
+}
+
 /*inex.html*/
 
 /*section hero*/
 .hero {
-  background-color: var(--footer-bcg);
-  text-align: center;
+  max-height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bcg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px 600px;
 }
 
 .hero-title {
