@@ -195,7 +195,7 @@ img {
 .contact-icon {
   align-items: center;
   margin-right: 10px;
-  stroke: currentColor;
+  fill: currentColor;
 }
 
 /*inex.html*/
