@@ -412,14 +412,11 @@ img {
 
 .footer-info {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-adress {
   margin-right: 70px;
-}
-
-.footer-social {
-  padding-top: 12px;
 }
 
 .contacts .logo-web {
@@ -517,11 +514,11 @@ img {
   flex-basis: calc((100% - 30px * 3) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-
   border: 1px solid #eeeeee;
 }
 
 .project-item-link {
+  display: block;
 }
 
 .project-item-link:hover,
