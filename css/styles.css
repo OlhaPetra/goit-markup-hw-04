@@ -351,8 +351,6 @@ img {
 
 .social-icon {
   fill: #afb1b8;
-  width: 20px;
-  height: 20px;
 }
 
 .team-social-link:focus .social-icon,
@@ -481,8 +479,6 @@ img {
 }
 
 .footer-social-icon {
-  width: 20px;
-  height: 20px;
   fill: var(--dark-bcg-text);
 }
 
